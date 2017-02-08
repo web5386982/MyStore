@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyStore</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="fastregister">快速注册</string>
+    <string name="send">发送</string>
+    <string name="market">市场</string>
+    <string name="me">我的</string>
+    <string name="message">消息</string>
+    <string name="contacts">通讯录</string>
+    <string name="personalinfo">个人信息</string>
+    <string name="Mycommodity">个人商品</string>
+    <string name="upcommodity">上传商品</string>
+    <string name="search">搜索</string>
+    <string name="commoditydetail">商品详情</string>
+    <string name="sendmassage">发消息</string>
+    <string name="contactwithhis">联系他</string>
+</resources>
