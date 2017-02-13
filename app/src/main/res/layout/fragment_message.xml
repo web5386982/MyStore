@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:text="@string/message"
-    android:textSize="30sp"
-    android:gravity="center"/>
+<!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="@string/message"-->
+    <!--android:textSize="30sp"-->
+    <!--android:gravity="center"/>-->
+    <!--speechMode设置为true时显示语音通话图标,不显示搜索icon-->
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        app:speechMode="false"
+        app:navIconDrawable="@mipmap/ic_chat_two"
+        app:hint="Custom hint"
+        app:maxSuggestionsCount="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchBar" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/f8470665924da462b8850646fb6867aa4"
+
+       /> >
 </LinearLayout>

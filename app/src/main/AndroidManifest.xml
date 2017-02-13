@@ -8,16 +8,16 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".mainclass.MainActivity">
-
-        </activity>
-        <activity android:name=".mainclass.slpashActivity">
+        <activity android:name=".mainclass.MainActivity" />
+        <activity android:name=".mainclass.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".user.LoginActivity" />
+        <activity android:name=".user.RegisterActivity"></activity>
     </application>
 
 </manifest>

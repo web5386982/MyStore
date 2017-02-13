@@ -1,11 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/me"
-        android:textSize="30sp"
-        android:gravity="center"/>
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/user_photo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/c3aed35e590341259abaf736f32026b1"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="#8BC34A"
+        android:layout_gravity="center_horizontal"
+        />
+         <TextView
+             android:id="@+id/register_login"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/loginorregister"
+             android:gravity="center"
+             android:textSize="20sp"
+             android:layout_marginBottom="30dp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        />
+    <TextView
+        android:id="@+id/personal_info"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/personalinfo"
+        android:background="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:textSize="25sp"/>
+   
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        />
+    <TextView
+        android:id="@+id/my_commodity"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/Mycommodity"
+        android:background="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:textSize="25sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        />
+    <TextView
+        android:id="@+id/up_commodity"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/upcommodity"
+        android:background="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:textSize="25sp"/>
+
 </LinearLayout>
