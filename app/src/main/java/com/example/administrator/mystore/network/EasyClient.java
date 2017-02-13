@@ -36,7 +36,7 @@ public class EasyClient extends AppCompatActivity {
     public Call registerOrLogin(String username,String password,String uri){
         RequestBody body=new FormBody.Builder()
                 .add("username",username)
-                .add("paaaword",password)
+                .add("password",password)
                 .build();
         Request request=new Request.Builder()
 
